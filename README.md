@@ -32,3 +32,4 @@ The dashboard will then be available at the URL shown in terminal.
 
 Built using the MERN (Mongo, Express, React, Node) stack and deployed to Heroku. See version 1.0 of this project at https://startupgraveyard.herokuapp.com
 
+Created by @enaluz (mostly frontend) and @aniravi24 (mostly backend).
