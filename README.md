@@ -14,16 +14,16 @@ First, install the dependencies using
 
 Then, once the dependencies are installed, setup your environment variables as follows:
 
-`export DEV_ENV=dev (required)`
-`export NODE_ENV=development (optional unless deploying, in which case set this to "production" without the quotes)`
-`export REACT_APP_SITEURL=http://localhost:3001 (required, change the URL if necessary but the express application is running on 3001 by default)`
-`export MONGODB_URI=YOUR_MONGO_URI (required if running locally, likely will be mongodb://localhost/NAME_OF_DATABASE)`
-`export PROD_MONGODB_URI=YOUR_PROD_URI_IF_DEPLOYING (optional unless deploying, if using mLab, it will give you the URI)`
-`export REACT_APP_RECAPTCHA_SITEKEY=YOUR_RECAPTCHA_SITEKEY_FROM_GOOGLE`
-`export RECAPTCHA_SECRETKEY=YOUR_RECAPTCHA_SECRETKEY_FROM_GOOGLE`
+```export DEV_ENV=dev (required)
+export NODE_ENV=development (optional unless deploying, in which case set this to "production" without the quotes)
+export REACT_APP_SITEURL=http://localhost:3001 (required, change the URL if necessary but the express application is running on 3001 by default)
+export MONGODB_URI=YOUR_MONGO_URI (required if running locally, likely will be mongodb://localhost/NAME_OF_DATABASE)
+export PROD_MONGODB_URI=YOUR_PROD_URI_IF_DEPLOYING (optional unless deploying, if using mLab, it will give you the URI)
+export REACT_APP_RECAPTCHA_SITEKEY=YOUR_RECAPTCHA_SITEKEY_FROM_GOOGLE
+export RECAPTCHA_SECRETKEY=YOUR_RECAPTCHA_SECRETKEY_FROM_GOOGLE
 
 If using a bash shell or similar, these lines can be put into your rc file or create an executable .sh (shell script) file with the above in it and run `source NAME_OF_SCRIPT.sh` with each terminal window/instance. Create the shell script outside of this project folder if you choose to use that method.
-
+```
 Then, start the project using:
 
 `yarn dev`
