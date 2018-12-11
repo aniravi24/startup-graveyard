@@ -14,7 +14,8 @@ First, install the dependencies using
 
 Then, once the dependencies are installed, setup your environment variables as follows:
 
-```export DEV_ENV=dev (required)
+```
+export DEV_ENV=dev (required)
 export NODE_ENV=development (optional unless deploying, in which case set this to "production" without the quotes)
 export REACT_APP_SITEURL=http://localhost:3001 (required, change the URL if necessary but the express application is running on 3001 by default)
 export MONGODB_URI=YOUR_MONGO_URI (required if running locally, likely will be mongodb://localhost/YOUR_NAME_OF_DATABASE)
