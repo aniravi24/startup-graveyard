@@ -1,0 +1,21 @@
+@media(min-width: 200px) {
+  #rocket {
+    margin-bottom: 3rem !important;
+  }
+}
+
+#rocket, #grave {
+  width: 75%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 3rem;
+}
+
+.btn-margin {
+  min-width: 120px;
+  max-width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+}

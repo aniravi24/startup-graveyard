@@ -1,0 +1,14 @@
+.special-color-dark {
+  background-color: #343a40;
+}
+
+.list-unstyled > li > a,
+.text-uppercase,
+{
+  color: white;
+}
+
+footer {
+  padding: 3rem 3rem 0 3rem;
+  bottom: 0;
+}

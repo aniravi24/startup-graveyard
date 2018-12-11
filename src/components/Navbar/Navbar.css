@@ -1,0 +1,14 @@
+#navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.btn-hover:hover {
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.12) !important;
+  transition-duration: 0.5s !important;
+  transform: translate(0, -5px) !important;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8) !important;
+}

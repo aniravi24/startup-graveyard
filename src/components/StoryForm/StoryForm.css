@@ -1,0 +1,9 @@
+.form-wrapper {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Include this to make it visible when input is clicked */
+input:focus::-webkit-datetime-edit {
+  color: #000;
+}
