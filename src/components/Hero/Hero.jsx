@@ -13,8 +13,6 @@ export default function Hero(props) {
             For people thinking about starting a startup, this would be a great place
             to learn from people who've done it and failed.</p>
           <a href='/addstory' className="mui-btn mui-btn--raised mui-btn--primary mui-btn--large text-capitalize btn-hover d-block btn-margin">Add Story</a>
-          {/* Will add button back when email list is configured */}
-          {/* <a href='google.com' className="mui-btn mui-btn--raised btn-success text-capitalize btn-hover">Join Our Email List</a>           */}
         </div>
         <div className="col-12 col-md-5 order-1 order-xs-2 order-md-2">
           <img id="grave" src={grave} className="img-fluid" alt="Grave"/>

@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
 
-// TODO: Add default values to the ones not required
 const Company = new mongoose.Schema({
     startupName: {type:String, trim: true},
     founderName: {type:String, trim: true},

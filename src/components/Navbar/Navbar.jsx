@@ -19,10 +19,6 @@ export default function Navbar(props) {
             )
           })}
         </ul>
-        {/* <form className="form-inline my-2 my-lg-0 ml-5">
-          <input className="form-control mr-sm-2 mui--text-body1" type="search" placeholder="Search" aria-label="Search"/>
-          <button className="mui-btn mui-btn--flat mui-btn--primary my-2 my-sm-0 text-capitalize" type="submit">Search</button>
-        </form> */}
       </div>
     </nav>
   )
