@@ -3,8 +3,7 @@
 }
 
 .list-unstyled > li > a,
-.text-uppercase,
-{
+.text-uppercase {
   color: white;
 }
 

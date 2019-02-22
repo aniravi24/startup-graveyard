@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import { Navbar, Footer } from '../components/export';
-import routes from '../routes/routes';
-import './Layout.css';
+import React, { Component } from "react";
+import { Navbar, Footer } from "../components/export";
+import routes from "../routes/routes";
+import "./Layout.css";
 
 export default class Layout extends Component {
   constructor(props) {
@@ -12,18 +12,16 @@ export default class Layout extends Component {
   }
 
   toggle() {
-    this.setState({isOpen: !this.state.isOpen});
+    this.setState({ isOpen: !this.state.isOpen });
   }
 
   render() {
-    return(
+    return (
       <div>
-        <Navbar color="gray" textColor="white" routes={routes}/>
-        <div>
-          {this.props.children}
-        </div>
-        <Footer routes={routes}/>
+        <Navbar color="gray" textColor="white" routes={routes} />
+        <div>{this.props.children}</div>
+        <Footer routes={routes} />
       </div>
-    )
+    );
   }
 }
