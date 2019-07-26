@@ -1,3 +1,6 @@
+# disclaimer
+This project hasn't been meaningfully updated since November 2018 - the deployed version has some minor changes, and our current projects have code that's much better written and structured than this one (along with linting, formatting, better commits, etc.) - but it does still work to our knowledge.
+
 # startup-graveyard
 A place where founders of failed startups can tell their story. For people thinking about starting a startup, this would be a great place to learn from people who've done it and failed.
 
