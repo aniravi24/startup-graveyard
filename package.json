@@ -12,7 +12,7 @@
     "history": "^4.7.2",
     "jquery": "^3.3.1",
     "moment": "^2.22.2",
-    "mongoose": "^5.3.12",
+    "mongoose": "^5.7.5",
     "muicss": "^0.9.41",
     "path": "^0.12.7",
     "popper.js": "^1.14.5",
